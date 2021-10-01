@@ -1,4 +1,4 @@
-/* commons */
+/* ****** commons ****** */
 
 *{
     margin: 0;
@@ -11,8 +11,8 @@
     margin: 20px auto;
 }
 
-.mb_20{
-    margin-bottom: 20px;
+.mb_30{
+    margin-bottom: 30px;
 }
 
 .clearfix::after {
@@ -25,8 +25,32 @@
     float: left;
 }
 
-/* proprietà header */
+/* ****** proprietà header ****** */
 
+/* proprietà header top con il logo e i links */
+
+.container_img{
+    width: 160px;
+    height: 60px;
+    border-right: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+
+.container_img > img{
+    height: 60px;
+}
+
+/* proprietà lista links */
+.header_links li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.header_links a{
+    text-decoration: none;
+    color: #868686;
+}
 
 /* proprietà main */
 
