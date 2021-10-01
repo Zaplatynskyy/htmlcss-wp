@@ -113,6 +113,11 @@ main h3{
     background-image: url('../img/img-1.jpg');
 }
 
+.img_content{
+    background-image: url('../img/banner-2.jpg');
+}
+
+
 /* proprietà footer */
 
 footer{
