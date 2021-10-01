@@ -99,6 +99,9 @@ main h3{
     margin: 20px 0 10px 0;
 }
 
+main h3, .text_main{
+    color: grey;
+}
 /* proprietà immagini della main */
 
 .main_img{
