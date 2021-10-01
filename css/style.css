@@ -40,7 +40,7 @@
     height: 60px;
 }
 
-/* proprietà lista links */
+/* proprietà header top lista links */
 .header_links li{
     display: inline-block;
     text-transform: uppercase;
@@ -50,6 +50,22 @@
 .header_links a{
     text-decoration: none;
     color: #868686;
+}
+
+/* proprietà header bottom jumbotron */
+
+.jumbotron{
+    height: 500px;
+    border-radius: 20px;
+    padding-top: 320px;
+    padding-left: 50px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.text_jumbotron{
+    width: 40%;
 }
 
 /* proprietà main */
@@ -82,8 +98,7 @@ footer{
     background-color: #e579e6;
 }
 
-.header_bottom.debug{
-    height: 400px;
+.jumbotron.debug{
     background-color: #e1d67a;
 }
 
