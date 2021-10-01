@@ -124,11 +124,21 @@ main h3, .text_main{
     background-image: url('../img/img-3.jpg');
 }
 
-/* proprietà footer */
+/* ****** proprietà footer ****** */
 
 footer{
     height: 50px;
+    line-height: 50px;
     margin-top: 10px;
+    text-align: center;
+}
+
+/* proprietà heart nel testo del footer */
+
+footer::after{
+    content: "\2665";
+    font-size: 25px;
+    color: red;
 }
 
 
